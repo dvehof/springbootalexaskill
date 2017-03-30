@@ -1,5 +1,5 @@
 ## Spring Boot Project for a self/cloud hosted Alexa Skill Service
-This project is a sample for a self hosted Spring Boot Serivce you can use for your Custom Alexa Skill instead of using AWS.
+This project is a sample for a self hosted Spring Boot Service you can use for your Custom Alexa Skill instead of using AWS Lambda.
 It just converts a given date to a day of the week.
 
 When deployed it needs to be accessible via HTTPS as Amazon only accepts https endpoints as skill backends.
@@ -9,7 +9,7 @@ The endpoint (per default) is **http://localhost:5050/dayofdateskill/alexaservic
 
 Port can be changed via **application.properties**
 
-Just put it behind a https configured nginx or apache with letesencrypt certificate (trusted by Amazon)
+Just put it behind a https configured nginx or apache with letsencrypt certificate (trusted by Amazon)
 
 ### Skill Configuration
 Sample intents and utterances can be found in directory **skillconfig**
