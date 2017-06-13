@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.3.RELEASE</version>
+		<version>1.5.4.RELEASE</version>
 		<relativePath/>
 	</parent>
 
@@ -23,7 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<!-- Amazon Alexa skills kit dependency versions -->
-		<alexa.skills.kit.version>1.3.0</alexa.skills.kit.version>
+		<alexa.skills.kit.version>1.3.1</alexa.skills.kit.version>
 	</properties>
 
 	<dependencies>
